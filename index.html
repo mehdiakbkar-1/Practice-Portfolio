@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/DVTN0964.JPG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+ </head>   
+
+
+<body>
+    <div class="main">
+        <div class="div-left">
+            <div class="img-div">
+                <img class="my-pic" src="./images/WhatsApp Image 2024-05-21 at 11.16.12 PM.jpeg" alt="">
+            </div>
+            <nav>
+                <div class="manu">
+                    <button class="manulinks" onclick="openCity(event, 'home')" id="defaultOpen">HOME</button>
+                    <button class="manulinks" onclick="openCity(event, 'about')">ABOUT</button>
+                    <button class="manulinks" onclick="openCity(event, 'resume')">RESUME</button>
+                    <button class="manulinks" onclick="openCity(event, 'porfolios')">PORFOLIOS</button>
+                    <button class="manulinks" onclick="openCity(event, 'contacts')">CONTACTS</button>
+                </div>
+            </nav>
+            <div class="footer">
+                <p class="footer-text">@2024 Mehdi Akbar</p>
+            </div>
+        </div>
+        <div class="div-right">
+            <div id="home" class="tabcontent">
+                <div class="home-div">
+                    <div>
+                        <h1>Hi, I am <span style="color: #037fff; z-index: 5;">Mehdi Akbar</span></h1>
+                        <p>I am a frontend web developer. I can provide clean code and pixel perfect design.
+                            I also make website<br> more & more interactive with web animations.</p>
+                        <div class="social-icons">
+                            <a href="#" class="fa"><i class="lni lni-facebook"></i></a>
+                            <a href="#" class="fa"><i class="lni lni-twitter"></i></a>
+                            <a href="#" class="fa"><i class="lni lni-linkedin"></i></a>
+                            <a href="#" class="fa"><i class="lni lni-instagram-original"></i></a>
+                            <a href="#" class="fa"><i class="lni lni-snapchat"></i></a>
+                        </div>
+                        <div class="bubbles-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="tabcontent">
+                <h1>ABOUT ME</h1>
+                <div class="out">
+                    <div class="bar" style="height:5px;width:40%"></div>
+                </div>
+                <div class="about-1">
+                    <div class="about-pic">
+                        <img class="about-mypic" src="./images/about-image.jpg" alt="my picture">
+                    </div>
+                    <div class="about-text">
+                        <h1 class="iam">I am <span style="color: #037fff; z-index: 5;">Mehdi Akbar</span></h1>
+                        <p>I am a frontend web developer. I can provide clean code and pixel perfect design.
+                            I also make website more & more interactive with web animations.</p>
+
+                        <ul class="custom-list">
+                            <li><b>Full Name</b><span class="gap">:</span> Devid Chester</li>
+                            <li><b>Age</b><span class="gap">:</span> 24 Years</li>
+                            <li><b>Nationality</b><span class="gap">:</span> American</li>
+                            <li><b>Languages</b><span class="gap">:</span> English, French</li>
+                            <li><b>Address</b><span class="gap">:</span> 121 King Street, Melbourne, Australia</li>
+                            <li><b>Freelance</b><span class="gap">:</span> Available</li>
+                        </ul>
+                        <a href="path/to/your-cv.pdf" download class="download-btn">DOWNLOAD CV</a>
+                    </div>
+                </div>
+                <div class="services-div">
+                    <h1>SERVICES</h1>
+                    <div class="out">
+                        <div class="bar" style="height:5px;width:40%"></div>
+                    </div>
+                    <div class="services-1">
+                        <div class="web">
+                            <i class="lni lni-brush-alt" style="font-size: 36px;"></i>
+                            <h1>Web Design</h1>
+                            <div class="out-ser">
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem tenetur ratione quod.</p>
+                        </div>
+                        <div class="web">
+                            <i class="lni lni-code" style="font-size: 36px;"></i>
+                            <h1>Web Design</h1>
+                            <div class="out-ser">
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem tenetur ratione quod.</p>
+                        </div>
+                        <div class="web">
+                            <i class="lni lni-mobile" style="font-size: 36px;"></i>
+                            <h1>Web Design</h1>
+                            <div class="out-ser">
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem tenetur ratione quod.</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="testimonial-slider">
+                    <h1>REVIEWS</h1>
+                    <div class="out">
+                        <div class="bar" style="height:5px;width:40%"></div>
+                    </div>
+                    <div class="slider">
+                        <!-- Slides -->
+                        <div class="slide">
+                            <div class="message">
+                                <p class="testimonial">"Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Explicabo suscipit quisquam totam harum at repudiandae."
+                                </p>
+                            </div>
+                            <p class="author">Susan Yost</p>
+                            <p class="client-type">Client</p>
+                        </div>
+                        <div class="slide">
+                            <div class="message">
+                                <p class="testimonial">"Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Explicabo suscipit quisquam totam harum at repudiandae."
+                                </p>
+                            </div>
+                            <p class="author">Irving Feeney</p>
+                            <p class="client-type">Fiverr Client</p>
+                        </div>
+                        <div class="slide">
+                            <div class="message">
+                                <p class="testimonial">"Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Explicabo suscipit quisquam totam harum at repudiandae."
+                                </p>
+                            </div>
+                            <p class="author">Emily Johnson</p>
+                            <p class="client-type">Upwork Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="resume" class="tabcontent">
+                <p>Paris is the capital of France.</p>
+            </div>
+            <div id="porfolios" class="tabcontent">
+                <p>Paris is the capital of France.</p>
+            </div>
+            <div id="contacts" class="tabcontent">
+                <p>Paris is the capital of France.</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
