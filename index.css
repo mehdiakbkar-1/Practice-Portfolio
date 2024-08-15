@@ -330,10 +330,3 @@ body {
 .ser-heading , .rev-heading{
     margin-top: 25px;
 }
-
-
-@media (max-width: 768px) {
-    .slide {
-        flex: 1 0 100%; /* Display one slide at a time on smaller screens */
-    }
-}
