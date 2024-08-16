@@ -343,6 +343,9 @@ body {
     text-align: center;
 }
 .progress{
+    width: 100%;
+}
+.pro{
     display: flex;
     width: 100%;
 }
