@@ -330,3 +330,19 @@ body {
 .ser-heading{
     margin-top: 25px;
 }
+
+.pro-out {
+    width: 10%;
+    background-color: #0c3360;
+    border-radius: 20px;
+}
+
+.pro-bar {
+    background-color: #037fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.progress{
+    display: flex;
+    width: 100%;
+}
