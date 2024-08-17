@@ -337,6 +337,12 @@ body {
     background-color: #0c3360;
     float: right;
 }
+
+.pro-bar {
+    background-color: #037fff;
+    text-align: center;
+    width: 90%;
+}
 .progress{
     width: 100%;
 }
