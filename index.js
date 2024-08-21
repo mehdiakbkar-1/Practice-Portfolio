@@ -33,6 +33,7 @@ function createBubble() {
     
     const size = Math.random() * 5 + 5; // Random size between 10px and 30px
     bubble.style.width = `${size}px`;
+ 
     bubble.style.height = `${size}px`;
     
     bubble.style.left = `${Math.random() * 100}%`; // Random horizontal position
@@ -63,3 +64,26 @@ function stopBubbleAnimation() {
     const bubbles = document.querySelectorAll('.bubble');
     bubbles.forEach(bubble => bubble.remove());
 }
+
+ // Get all elements with the class 'portfolio-item'
+ let portfolioItems = document.querySelectorAll('.portfolio-item');
+
+ // Function to show the upper div
+ let Show = (event) => {
+     let upper = event.currentTarget.querySelector('.upper');
+     upper.style.opacity = "1";
+     upper.style.transform = "scale(1,1)";
+ };
+
+ // Function to hide the upper div
+ let Hide = (event) => {
+     let upper = event.currentTarget.querySelector('.upper');
+     upper.style.opacity = "0";
+     upper.style.transform = "scale(0.8, 0.8)";
+ };
+
+ // Add event listeners to each portfolio item
+ portfolioItems.forEach(item => {
+     item.addEventListener('mouseover', Show);
+     item.addEventListener('mouseout', Hide);
+ });
