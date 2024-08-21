@@ -345,10 +345,11 @@ body {
 }
 .progress{
     width: 100%;
+
 }
 .pro{
     display: flex;
     width: 100%;
     gap: 5%;
-    margin-bottom: 20pxF;
+    margin: 15px 0px;
 }
