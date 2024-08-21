@@ -308,7 +308,7 @@ body {
 .services-1{
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0px;
     gap: 15px;
 }
 .web{
@@ -350,5 +350,5 @@ body {
     display: flex;
     width: 100%;
     gap: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 20pxF;
 }
