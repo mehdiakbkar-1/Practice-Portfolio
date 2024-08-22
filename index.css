@@ -395,6 +395,7 @@ body {
 .pagination {
     text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .pagination a {
