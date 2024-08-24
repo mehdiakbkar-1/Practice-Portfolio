@@ -445,10 +445,11 @@ body {
 .contact-div {
     display: flex;
     width: 100%;
+    gap: 10px;
 }
 
 .contact-form {
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     width: 50%;
 }
