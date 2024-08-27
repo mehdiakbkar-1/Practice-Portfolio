@@ -29,7 +29,6 @@ body {
     height: 100vh;
     margin: auto;
     position: relative;
-    height: 100%;
     overflow: hidden;
 }
 
@@ -101,6 +100,7 @@ body {
 .manulinks:hover {
     color: #fff;
 }
+
 
 .manulinks:active,
 .manulinks:focus {
@@ -175,7 +175,6 @@ body {
 
 #home {
     height: 100%;
-
 }
 
 .home-div {
@@ -198,6 +197,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     color: #a4acc4;
 }
+
 
 .fa:hover {
     background-color: rgba(0, 0, 0, 0);
@@ -526,7 +526,8 @@ body {
 .btn:hover {
     color: #fff;
 }
-.info{
+
+.info {
     width: 50%;
     background-color: #4CAF50;
 }
