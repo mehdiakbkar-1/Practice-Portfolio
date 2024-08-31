@@ -225,6 +225,9 @@ body {
     align-items: center;
     margin-top: 40px;
 }
+.about-heading{
+    margin-top: 50px;
+}
 
 .about-pic {
     width: 49%;
@@ -334,7 +337,7 @@ body {
 }
 
 .ser-heading {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .pro-out {
