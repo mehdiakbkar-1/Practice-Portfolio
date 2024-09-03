@@ -108,13 +108,13 @@ body {
     color: #fff;
 }
 
-/* .footer {
+.footer {
     display: flex;
     justify-content: center;
     border-top: 1px solid #2c324b;
     padding-top: 10px;
     margin-top: 10px;
-} */
+}
 
 .footer-text {
     color: #8c93aa;
