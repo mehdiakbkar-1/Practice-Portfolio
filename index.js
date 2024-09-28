@@ -1,4 +1,4 @@
-function openCity(evt, cityName) 
+function openCity(evt, cityName) {
     var i, tabcontent, manulinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
